@@ -1,6 +1,6 @@
 module.exports = {
     catalogUrl: "https://montandon-eoapi-1.ifrc-go.dev.togglecorp.com/stac",
-    catalogTitle: "Montandon STAC API",
+    catalogTitle: "Montandon STAC API browser",
     catalogImage: null,
     allowExternalAccess: true, // Must be true if catalogUrl is not given
     allowedDomains: [],
