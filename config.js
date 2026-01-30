@@ -1,5 +1,5 @@
 module.exports = {
-    catalogUrl: "https://montandon-eoapi-stage.ifrc.org/stac",
+    catalogUrl: "https://montandon-eoapi-1.ifrc-go.dev.togglecorp.com/stac",
     catalogTitle: "Montandon STAC API",
     catalogImage: null,
     allowExternalAccess: true, // Must be true if catalogUrl is not given
@@ -52,12 +52,6 @@ module.exports = {
     requestQueryParameters: {},
     socialSharing: ['email', 'bsky', 'mastodon', 'x'],
     preprocessSTAC: null,
-    authConfig: {
-        type: 'apiKey',
-        in: 'header',
-        name: 'Authorization',
-        formatter: 'Bearer',
-        description: 'Please enter your API token to access the STAC catalog.'
-    },
+    authConfig: null,
     crs: {}
 };
